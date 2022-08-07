@@ -20,7 +20,6 @@ beforeEach(async () => {
 describe('inbox', () => {
     it('deployed inbox contract', () => {
         assert.ok(inbox.options.address)
-        console.log(inbox.options.address)
     })
 
     it('has initial message', async () => {
